@@ -1,0 +1,24 @@
+package CodersCampusAssignment3;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+
+public class FileReader {
+
+	public static void main(String[] args) {
+
+		try {
+			BufferedReader fileReader = new BufferedReader(fileReader("data.txt"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+	//private static Reader fileReader(String string) {
+		// TODO Auto-generated method stub
+	//	return null;
+	}
+
+}

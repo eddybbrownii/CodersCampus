@@ -1,0 +1,14 @@
+package CodersCampusAssignment3;
+
+public class UserApplication {
+
+	public static void main(String[] args) {
+
+		UserService userService = new UserService();
+
+		User[] users = new User[4];
+		
+		User1.setinvalidLogInAttempts(1);
+	}
+
+}

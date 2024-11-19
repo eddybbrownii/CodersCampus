@@ -1,0 +1,26 @@
+package CodersCampusAssignment3;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.FileReader;
+
+public class FilesReader {
+
+	public static void main(String[] args) {
+
+		BufferedReader fileReader = null;
+		try {
+			fileReader = new BufferedReader(new FileReader("data.txt")); {
+			System.out.println(fileReader.toString());
+			} catch (IOException e) {
+		      e.printStackTrace();
+			System.out.println(fileReader.toString());
+		} finally {
+			try {
+				fileReader.close();
+				System.out.println("File Reader Closed");
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		

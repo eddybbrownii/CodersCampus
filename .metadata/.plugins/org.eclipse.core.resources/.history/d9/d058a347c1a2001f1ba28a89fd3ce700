@@ -1,0 +1,11 @@
+package CodersCampusAssignment3;
+
+public class User {
+//POJO
+	// Should contain username, password, name
+	String username;
+	String password;
+	String name;
+	Int invalidLogInAttempts;
+		// TODO Auto-generated method stub
+}

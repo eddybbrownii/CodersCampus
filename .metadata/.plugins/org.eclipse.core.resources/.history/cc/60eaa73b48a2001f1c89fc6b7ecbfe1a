@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package CodersCampus;
+
+/**
+ * 
+ */
+public class RunnablerClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)	{ 
+
+
+		Human trevorPage = new Human();
+		trevorPage.setProperties("Male", "5'10\"","180","Brown");
+		System.out.println(trevorPage.getDetails());
+		
+		Human elonMusk = new Human();
+		elonMusk.setProperties("Male", "6'0\"", "220", "Blue");
+		System.out.println(elonMusk.getDetails());
+		
+		Human christinaPage = new Human();
+		christinaPage.setProperties("Female", "5'2\"", "135", "Brown");
+		System.out.println(christinaPage.getDetails());
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+}

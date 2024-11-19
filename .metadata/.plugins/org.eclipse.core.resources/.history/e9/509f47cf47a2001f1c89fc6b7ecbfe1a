@@ -1,0 +1,22 @@
+package CodersCampus;
+
+public class Human {
+
+	String gender;
+	String weight;
+	String height;
+	String eyeColor;
+
+	String getDetails() {
+
+		return "Gender: " + gender +  ", Height: " + height + ", weight: " + weight + ", Eye Color: " + eyeColor ;
+	}
+
+	void setProperties(String gender, String weight,
+			String height, String eyeColor) {
+		this.gender = gender;
+		this.weight = weight;
+		this.height = height;
+		this.eyeColor = eyeColor;
+	}
+}

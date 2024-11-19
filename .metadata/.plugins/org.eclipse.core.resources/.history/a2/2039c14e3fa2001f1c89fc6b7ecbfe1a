@@ -1,0 +1,13 @@
+package CodersCampus;
+
+public class Human {
+
+	String gender;
+	String weight;
+	String Height;
+	String eyeColor;
+
+	Human trevorPage = new Human();
+	
+	
+}

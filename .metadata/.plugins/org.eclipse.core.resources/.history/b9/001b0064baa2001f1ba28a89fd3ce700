@@ -1,0 +1,13 @@
+package CodersCampusAssignment3;
+
+public class User {
+//POJO
+	//Should contain username, password, name
+	public static void main(String[] args) {
+		User user = new User();
+
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package CodersCampus;
+
+import java.util.Scanner;
+
+/**
+ * 
+ */
+public class UserInput {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	String username = "username";
+	String password = "password";
+	String name = "name";
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("What is your username?");
+		String userInput = scanner.nextLine();// TODO Auto-generated method stub
+
+	}
+
+}

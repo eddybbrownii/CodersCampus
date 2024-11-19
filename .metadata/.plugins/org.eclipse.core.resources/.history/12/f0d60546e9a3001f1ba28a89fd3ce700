@@ -1,0 +1,19 @@
+package CodersCampusAssignment3;
+
+public class UserInputs {
+
+	public static void main(String[] args) {
+
+		User user = new User();
+
+		User user1 = new User();
+		user1.username = "userInputUsername";
+		user1.password = "userInputPassword";
+		user1.name = "name";
+		//user1.invalidLogInAttempts = "";
+
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Assignment3EBrown</name>
+	<comment></comment>
+	<projects>
+		<project>Assignment3</project>
+		<project>Assignnmentt3</project>
+		<project>GitHub_Assignment3</project>
+		<project>Unit3_4Practice</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

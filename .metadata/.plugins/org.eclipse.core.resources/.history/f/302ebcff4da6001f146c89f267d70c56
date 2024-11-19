@@ -1,0 +1,19 @@
+package CodersCampusAssignment3;
+
+import java.util.Scanner;
+
+public class UserService {
+
+	// public static void main(String[] args) {
+	public User createUser(String username, String password, String name) {
+		User user = new User();
+		user.setUsername(username);
+		user.setPassword(password);
+		user.setName("name");
+		user.setInvalidLogInAttempts(0);
+		// user.setInvalidLogInAttempts(0);
+		Scanner scanner = new Scanner(System.in);
+		return user;// TODO Auto-generated method stub
+	}
+
+}

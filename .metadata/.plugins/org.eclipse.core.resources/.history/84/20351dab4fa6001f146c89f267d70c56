@@ -1,0 +1,15 @@
+package CodersCampusAssignment3;
+
+public class UserApplication {
+
+	public static void main(String[] args) {
+
+		UserService userService = new UserService();
+
+		User[] users = new User[4];
+		users[0] = userService.createUser("username", "password", "name");
+
+		// User[].setinvalidLogInAttempts(1);
+	}
+
+}

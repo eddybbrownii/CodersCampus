@@ -1,0 +1,16 @@
+package CodersCampus;
+
+public class Human {
+
+	String gender;
+	String weight;
+	String height;
+	String eyeColor;
+	
+	String getDetails () {
+		return "";
+	}
+}
+
+
+

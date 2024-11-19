@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package CodersCampusAssignment3;
+
+import java.util.Scanner;
+
+/**
+ * if match, "Welcome Username" if no match "Welcome Username" Invalid login,
+ * please try again limit no match to 5 times too many failed login attempts,
+ * you are locked out
+ * 
+ * username is not case sensitive password is case sensitive match with password
+ * in User object
+ */
+public class UserValidation {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		try (Scanner scanner = new Scanner(System.in)) {
+			System.out.println("What is your username?");
+			String userInputUsername = scanner.nextLine();
+			System.out.println(userInputUsername);
+
+			System.out.println("What is your password?");
+			String userInputPassword = scanner.nextLine();
+			System.out.println(userInputPassword);
+
+			if (userInputUsername.equals("") && userInputPassword.equals("")) {
+				System.out.println("Welocome");
+			}
+		}
+
+		// TODO Auto-generated method stub
+
+	}
+}

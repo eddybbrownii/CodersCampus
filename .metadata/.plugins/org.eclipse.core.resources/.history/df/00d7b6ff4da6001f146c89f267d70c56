@@ -1,0 +1,14 @@
+package CodersCampusAssignment3;
+
+public class UserApplication {
+
+	public static void main(String[] args) {
+
+		UserService userService = new UserService();
+
+		User trevorUser = userService.createUser("trevorpage@craftycoder.com", "password123", "trevor");
+		System.out.println(trevorUser); // TODO Auto-generated method stub
+
+	}
+
+}

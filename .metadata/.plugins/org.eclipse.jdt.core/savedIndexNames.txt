@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+/Users/eddybrownii/CodersCampus/.metadata/.plugins/org.eclipse.jdt.core
+3690225903.index
+3124604304.index
+1865797976.index
+1223578952.index
+2355537206.index
+3162503632.index

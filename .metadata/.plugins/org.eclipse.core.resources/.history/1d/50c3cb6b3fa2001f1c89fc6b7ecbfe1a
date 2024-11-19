@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package CodersCampus;
+
+/**
+ * 
+ */
+public class RunnablerClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)	{ 
+		String gender;
+		String weight;
+		String height;
+		String eyeColor;
+
+		Human trevorPage = new Human();
+
+		trevorPage.gender = "male";
+		trevorPage.eyeColor = "Brown";
+		trevorPage.height = "5'10\"";
+		trevorPage.weight = "180";
+		
+		System.out.println(trevorPage);
+		
+	
+		// TODO Auto-generated method stub
+
+	}
+
+}

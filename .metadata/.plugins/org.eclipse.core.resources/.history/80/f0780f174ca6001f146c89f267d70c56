@@ -1,0 +1,13 @@
+package CodersCampusAssignment3;
+
+public class UserService {
+
+	public static void main(String[] args) {
+		public User createUser (String username, String password) {
+			
+			// TODO Auto-generated method stub
+		}
+
+	}
+
+}
